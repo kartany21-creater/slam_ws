@@ -1,0 +1,12 @@
+source;share/rpm_to_odom/hook/cmake_prefix_path.ps1
+source;share/rpm_to_odom/hook/cmake_prefix_path.dsv
+source;share/rpm_to_odom/hook/cmake_prefix_path.sh
+source;share/rpm_to_odom/hook/ros_package_path.ps1
+source;share/rpm_to_odom/hook/ros_package_path.dsv
+source;share/rpm_to_odom/hook/ros_package_path.sh
+source;share/rpm_to_odom/hook/pkg_config_path.ps1
+source;share/rpm_to_odom/hook/pkg_config_path.dsv
+source;share/rpm_to_odom/hook/pkg_config_path.sh
+source;share/rpm_to_odom/hook/pkg_config_path_multiarch.ps1
+source;share/rpm_to_odom/hook/pkg_config_path_multiarch.dsv
+source;share/rpm_to_odom/hook/pkg_config_path_multiarch.sh

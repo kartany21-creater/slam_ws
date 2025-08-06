@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.000600] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.000627] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.000643] (-) JobUnselected: {'identifier': 'ydlidar_slam_launch'}
+[0.000658] (rpm_to_odom) JobQueued: {'identifier': 'rpm_to_odom', 'dependencies': OrderedDict()}
+[0.000674] (rpm_to_odom) JobStarted: {'identifier': 'rpm_to_odom'}
+[0.008405] (rpm_to_odom) JobProgress: {'identifier': 'rpm_to_odom', 'progress': 'cmake'}
+[0.008846] (rpm_to_odom) Command: {'cmd': ['/usr/bin/cmake', '/home/maffin21/slam_ws/src/rpm_to_odom', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/maffin21/slam_ws/install/rpm_to_odom'], 'cwd': '/home/maffin21/slam_ws/build/rpm_to_odom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja_JP.UTF-8'), ('USER', 'maffin21'), ('ROS_PACKAGE_PATH', '/home/maffin21/slam_ws/install/rpm_to_odom/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maffin21/slam_ws/install/slam_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maffin21'), ('OLDPWD', '/home/maffin21'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '192.168.12.124'), ('SYSTEMD_EXEC_PID', '1760'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/maffin21/slam_ws/install:/home/maffin21/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'maffin21'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/maffin21/slam_ws/install/rpm_to_odom/lib/x86_64-linux-gnu/pkgconfig:/home/maffin21/slam_ws/install/rpm_to_odom/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maffin21'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/maffin21/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maffin21-EQ:@/tmp/.ICE-unix/1730,unix/maffin21-EQ:/tmp/.ICE-unix/1730'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8bffc5f0_a428_477e_abe2_f831b7da20dc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/maffin21/slam_ws/install/ydlidar_slam_launch:/home/maffin21/slam_ws/install/ydlidar_ros2_driver:/home/maffin21/slam_ws/install/slam_toolbox:/home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maffin21/slam_ws/build/rpm_to_odom'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maffin21/slam_ws/build/ydlidar_slam_launch:/home/maffin21/slam_ws/install/ydlidar_slam_launch/lib/python3.10/site-packages:/home/maffin21/slam_ws/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maffin21/slam_ws/install/ydlidar_ros2_driver:/home/maffin21/slam_ws/install/slam_toolbox:/home/maffin21/slam_ws/install/rpm_to_odom:/home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver')]), 'shell': False}
+[0.098835] (rpm_to_odom) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099812] (-) TimerEvent: {}
+[0.165321] (rpm_to_odom) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.173062] (rpm_to_odom) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199927] (-) TimerEvent: {}
+[0.233641] (rpm_to_odom) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.239229] (rpm_to_odom) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.239537] (rpm_to_odom) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.239988] (rpm_to_odom) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.242566] (rpm_to_odom) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300026] (-) TimerEvent: {}
+[0.308144] (rpm_to_odom) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.313599] (rpm_to_odom) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.313871] (rpm_to_odom) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.314250] (rpm_to_odom) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.317922] (rpm_to_odom) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400118] (-) TimerEvent: {}
+[0.433205] (rpm_to_odom) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500205] (-) TimerEvent: {}
+[0.507657] (rpm_to_odom) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.546678] (rpm_to_odom) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.551180] (rpm_to_odom) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.558990] (rpm_to_odom) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.570091] (rpm_to_odom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.584977] (rpm_to_odom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600278] (-) TimerEvent: {}
+[0.624788] (rpm_to_odom) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.627736] (rpm_to_odom) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700372] (-) TimerEvent: {}
+[0.707512] (rpm_to_odom) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.730618] (rpm_to_odom) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.764584] (rpm_to_odom) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.772989] (rpm_to_odom) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800490] (-) TimerEvent: {}
+[0.837557] (rpm_to_odom) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.837896] (rpm_to_odom) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.898237] (rpm_to_odom) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.899055] (rpm_to_odom) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900540] (-) TimerEvent: {}
+[0.944191] (rpm_to_odom) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.970639] (rpm_to_odom) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.000622] (-) TimerEvent: {}
+[1.100823] (-) TimerEvent: {}
+[1.107975] (rpm_to_odom) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.117093] (rpm_to_odom) StdoutLine: {'line': b'-- Generating done\n'}
+[1.118014] (rpm_to_odom) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[1.118126] (rpm_to_odom) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[1.118188] (rpm_to_odom) StderrLine: {'line': b'\n'}
+[1.118243] (rpm_to_odom) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[1.118297] (rpm_to_odom) StderrLine: {'line': b'    CATKIN_SYMLINK_INSTALL\n'}
+[1.118376] (rpm_to_odom) StderrLine: {'line': b'\n'}
+[1.118427] (rpm_to_odom) StderrLine: {'line': b'\x1b[0m\n'}
+[1.120556] (rpm_to_odom) StdoutLine: {'line': b'-- Build files have been written to: /home/maffin21/slam_ws/build/rpm_to_odom\n'}
+[1.128736] (rpm_to_odom) CommandEnded: {'returncode': 0}
+[1.129366] (rpm_to_odom) JobProgress: {'identifier': 'rpm_to_odom', 'progress': 'build'}
+[1.129995] (rpm_to_odom) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maffin21/slam_ws/build/rpm_to_odom', '--', '-j12', '-l12'], 'cwd': '/home/maffin21/slam_ws/build/rpm_to_odom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja_JP.UTF-8'), ('USER', 'maffin21'), ('ROS_PACKAGE_PATH', '/home/maffin21/slam_ws/install/rpm_to_odom/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maffin21/slam_ws/install/slam_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maffin21'), ('OLDPWD', '/home/maffin21'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '192.168.12.124'), ('SYSTEMD_EXEC_PID', '1760'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/maffin21/slam_ws/install:/home/maffin21/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'maffin21'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/maffin21/slam_ws/install/rpm_to_odom/lib/x86_64-linux-gnu/pkgconfig:/home/maffin21/slam_ws/install/rpm_to_odom/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maffin21'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/maffin21/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maffin21-EQ:@/tmp/.ICE-unix/1730,unix/maffin21-EQ:/tmp/.ICE-unix/1730'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8bffc5f0_a428_477e_abe2_f831b7da20dc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/maffin21/slam_ws/install/ydlidar_slam_launch:/home/maffin21/slam_ws/install/ydlidar_ros2_driver:/home/maffin21/slam_ws/install/slam_toolbox:/home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maffin21/slam_ws/build/rpm_to_odom'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maffin21/slam_ws/build/ydlidar_slam_launch:/home/maffin21/slam_ws/install/ydlidar_slam_launch/lib/python3.10/site-packages:/home/maffin21/slam_ws/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maffin21/slam_ws/install/ydlidar_ros2_driver:/home/maffin21/slam_ws/install/slam_toolbox:/home/maffin21/slam_ws/install/rpm_to_odom:/home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver')]), 'shell': False}
+[1.172677] (rpm_to_odom) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rpm_to_odom_node.dir/src/rpm_to_odom_node.cpp.o\x1b[0m\n'}
+[1.200898] (-) TimerEvent: {}
+[1.301159] (-) TimerEvent: {}
+[1.401423] (-) TimerEvent: {}
+[1.501704] (-) TimerEvent: {}
+[1.602007] (-) TimerEvent: {}
+[1.702326] (-) TimerEvent: {}
+[1.802709] (-) TimerEvent: {}
+[1.903004] (-) TimerEvent: {}
+[2.003324] (-) TimerEvent: {}
+[2.103642] (-) TimerEvent: {}
+[2.203949] (-) TimerEvent: {}
+[2.304261] (-) TimerEvent: {}
+[2.404594] (-) TimerEvent: {}
+[2.504916] (-) TimerEvent: {}
+[2.605234] (-) TimerEvent: {}
+[2.705561] (-) TimerEvent: {}
+[2.805859] (-) TimerEvent: {}
+[2.906154] (-) TimerEvent: {}
+[3.006501] (-) TimerEvent: {}
+[3.106804] (-) TimerEvent: {}
+[3.207098] (-) TimerEvent: {}
+[3.307414] (-) TimerEvent: {}
+[3.407718] (-) TimerEvent: {}
+[3.508022] (-) TimerEvent: {}
+[3.608339] (-) TimerEvent: {}
+[3.708644] (-) TimerEvent: {}
+[3.808947] (-) TimerEvent: {}
+[3.909255] (-) TimerEvent: {}
+[4.009586] (-) TimerEvent: {}
+[4.109895] (-) TimerEvent: {}
+[4.210178] (-) TimerEvent: {}
+[4.310483] (-) TimerEvent: {}
+[4.410770] (-) TimerEvent: {}
+[4.511066] (-) TimerEvent: {}
+[4.611378] (-) TimerEvent: {}
+[4.711677] (-) TimerEvent: {}
+[4.811990] (-) TimerEvent: {}
+[4.912292] (-) TimerEvent: {}
+[5.012604] (-) TimerEvent: {}
+[5.112931] (-) TimerEvent: {}
+[5.213289] (-) TimerEvent: {}
+[5.313626] (-) TimerEvent: {}
+[5.413907] (-) TimerEvent: {}
+[5.514210] (-) TimerEvent: {}
+[5.614515] (-) TimerEvent: {}
+[5.714802] (-) TimerEvent: {}
+[5.815091] (-) TimerEvent: {}
+[5.915382] (-) TimerEvent: {}
+[6.015666] (-) TimerEvent: {}
+[6.115952] (-) TimerEvent: {}
+[6.216236] (-) TimerEvent: {}
+[6.316531] (-) TimerEvent: {}
+[6.416819] (-) TimerEvent: {}
+[6.517095] (-) TimerEvent: {}
+[6.617376] (-) TimerEvent: {}
+[6.717660] (-) TimerEvent: {}
+[6.817933] (-) TimerEvent: {}
+[6.918224] (-) TimerEvent: {}
+[7.018521] (-) TimerEvent: {}
+[7.118808] (-) TimerEvent: {}
+[7.219091] (-) TimerEvent: {}
+[7.319389] (-) TimerEvent: {}
+[7.419682] (-) TimerEvent: {}
+[7.519951] (-) TimerEvent: {}
+[7.620265] (-) TimerEvent: {}
+[7.720143] (rpm_to_odom) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rpm_to_odom_node\x1b[0m\n'}
+[7.720350] (-) TimerEvent: {}
+[7.820574] (-) TimerEvent: {}
+[7.920863] (-) TimerEvent: {}
+[8.021181] (-) TimerEvent: {}
+[8.037821] (rpm_to_odom) StdoutLine: {'line': b'[100%] Built target rpm_to_odom_node\n'}
+[8.047268] (rpm_to_odom) CommandEnded: {'returncode': 0}
+[8.048189] (rpm_to_odom) JobProgress: {'identifier': 'rpm_to_odom', 'progress': 'install'}
+[8.055856] (rpm_to_odom) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maffin21/slam_ws/build/rpm_to_odom'], 'cwd': '/home/maffin21/slam_ws/build/rpm_to_odom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja_JP.UTF-8'), ('USER', 'maffin21'), ('ROS_PACKAGE_PATH', '/home/maffin21/slam_ws/install/rpm_to_odom/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maffin21/slam_ws/install/slam_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/maffin21'), ('OLDPWD', '/home/maffin21'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_IP', '192.168.12.124'), ('SYSTEMD_EXEC_PID', '1760'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/maffin21/slam_ws/install:/home/maffin21/ydlidar_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'maffin21'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/maffin21/slam_ws/install/rpm_to_odom/lib/x86_64-linux-gnu/pkgconfig:/home/maffin21/slam_ws/install/rpm_to_odom/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maffin21'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/maffin21/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maffin21-EQ:@/tmp/.ICE-unix/1730,unix/maffin21-EQ:/tmp/.ICE-unix/1730'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8bffc5f0_a428_477e_abe2_f831b7da20dc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/maffin21/slam_ws/install/ydlidar_slam_launch:/home/maffin21/slam_ws/install/ydlidar_ros2_driver:/home/maffin21/slam_ws/install/slam_toolbox:/home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maffin21/slam_ws/build/rpm_to_odom'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maffin21/slam_ws/build/ydlidar_slam_launch:/home/maffin21/slam_ws/install/ydlidar_slam_launch/lib/python3.10/site-packages:/home/maffin21/slam_ws/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maffin21/slam_ws/install/ydlidar_ros2_driver:/home/maffin21/slam_ws/install/slam_toolbox:/home/maffin21/slam_ws/install/rpm_to_odom:/home/maffin21/ydlidar_ws/install/ydlidar_ros2_driver')]), 'shell': False}
+[8.062222] (rpm_to_odom) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.062416] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/lib/rpm_to_odom/rpm_to_odom_node\n'}
+[8.066014] (rpm_to_odom) StdoutLine: {'line': b'-- Set runtime path of "/home/maffin21/slam_ws/install/rpm_to_odom/lib/rpm_to_odom/rpm_to_odom_node" to ""\n'}
+[8.066123] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom//launch\n'}
+[8.066214] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom//launch/rpm_to_odom.launch.py\n'}
+[8.066786] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/ament_index/resource_index/package_run_dependencies/rpm_to_odom\n'}
+[8.066964] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/ament_index/resource_index/parent_prefix_path/rpm_to_odom\n'}
+[8.067130] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom/environment/ament_prefix_path.sh\n'}
+[8.067256] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom/environment/ament_prefix_path.dsv\n'}
+[8.067389] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom/environment/path.sh\n'}
+[8.067520] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom/environment/path.dsv\n'}
+[8.067638] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom/local_setup.bash\n'}
+[8.067756] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom/local_setup.sh\n'}
+[8.067906] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom/local_setup.zsh\n'}
+[8.068026] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom/local_setup.dsv\n'}
+[8.068139] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom/package.dsv\n'}
+[8.068362] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/ament_index/resource_index/packages/rpm_to_odom\n'}
+[8.068502] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom/cmake/rpm_to_odomConfig.cmake\n'}
+[8.068603] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom/cmake/rpm_to_odomConfig-version.cmake\n'}
+[8.068718] (rpm_to_odom) StdoutLine: {'line': b'-- Installing: /home/maffin21/slam_ws/install/rpm_to_odom/share/rpm_to_odom/package.xml\n'}
+[8.070132] (rpm_to_odom) CommandEnded: {'returncode': 0}
+[8.085801] (rpm_to_odom) JobEnded: {'identifier': 'rpm_to_odom', 'rc': 0}
+[8.086271] (-) EventReactorShutdown: {}

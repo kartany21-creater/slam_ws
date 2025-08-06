@@ -1,0 +1,36 @@
+slam_toolbox:
+  ros__parameters:
+    use_sim_time: false
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_link
+    scan_topic: /scan
+    publish_pose: true
+    scan_queue_size: 10
+
+    mode: mapping
+    resolution: 0.01                    # 高精度マップ（1cm単位）
+
+    publish_period: 1.0
+    map_update_interval: 2.0           # より頻繁にマップ更新（地図が細かくなる）
+
+    max_laser_range: 12.0              # LiDARの最大有効距離に合わせる
+    minimum_time_interval: 0.2         # スキャン統合頻度UP（より細かくSLAM処理）
+
+    use_scan_matching: true            # スキャンマッチング有効（地図精度向上）
+    use_scan_barycenter: true
+
+    transform_publish_period: 0.05
+    map_publish_period: 1.0
+    map_merge_interval: 0.0
+
+    minimum_travel_distance: 0.1       # 10cm動いたらSLAM更新
+    minimum_travel_heading: 0.05       # 約3°の回転でもSLAM更新
+    max_submaps: 20                    # 同時保持するサブマップ数を増加
+
+    scan_timeout: 0.5                  # LiDAR通信が切れても早期に検出
+    throttle_scans: 1
+    enable_interactive_mode: false
+
+    enable_pose_graph_visualization: false
+    enable_scan_matching_visualization: false

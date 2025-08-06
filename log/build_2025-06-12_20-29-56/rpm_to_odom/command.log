@@ -1,0 +1,6 @@
+Invoking command in '/home/maffin21/slam_ws/build/rpm_to_odom': /usr/bin/cmake /home/maffin21/slam_ws/src/rpm_to_odom -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/maffin21/slam_ws/install/rpm_to_odom
+Invoked command in '/home/maffin21/slam_ws/build/rpm_to_odom' returned '0': /usr/bin/cmake /home/maffin21/slam_ws/src/rpm_to_odom -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/maffin21/slam_ws/install/rpm_to_odom
+Invoking command in '/home/maffin21/slam_ws/build/rpm_to_odom': /usr/bin/cmake --build /home/maffin21/slam_ws/build/rpm_to_odom -- -j12 -l12
+Invoked command in '/home/maffin21/slam_ws/build/rpm_to_odom' returned '0': /usr/bin/cmake --build /home/maffin21/slam_ws/build/rpm_to_odom -- -j12 -l12
+Invoking command in '/home/maffin21/slam_ws/build/rpm_to_odom': /usr/bin/cmake --install /home/maffin21/slam_ws/build/rpm_to_odom
+Invoked command in '/home/maffin21/slam_ws/build/rpm_to_odom' returned '0': /usr/bin/cmake --install /home/maffin21/slam_ws/build/rpm_to_odom

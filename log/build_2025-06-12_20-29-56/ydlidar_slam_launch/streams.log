@@ -1,0 +1,33 @@
+[0.485s] Invoking command in '/home/maffin21/slam_ws/src/ydlidar_slam_launch': AMENT_PREFIX_PATH=/home/maffin21/slam_ws/install/ydlidar_ros2_driver:/home/maffin21/slam_ws/install/slam_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maffin21/slam_ws/install/ydlidar_ros2_driver:/home/maffin21/slam_ws/install/slam_toolbox:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/maffin21/slam_ws/install/slam_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maffin21/slam_ws/build/ydlidar_slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maffin21/slam_ws/install/ydlidar_slam_launch/lib/python3.10/site-packages:/home/maffin21/slam_ws/install/slam_toolbox/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ydlidar_slam_launch build --build-base /home/maffin21/slam_ws/build/ydlidar_slam_launch/build install --record /home/maffin21/slam_ws/build/ydlidar_slam_launch/install.log --single-version-externally-managed install_data
+[0.663s] running egg_info
+[0.664s] creating ../../build/ydlidar_slam_launch/ydlidar_slam_launch.egg-info
+[0.664s] writing ../../build/ydlidar_slam_launch/ydlidar_slam_launch.egg-info/PKG-INFO
+[0.664s] writing dependency_links to ../../build/ydlidar_slam_launch/ydlidar_slam_launch.egg-info/dependency_links.txt
+[0.664s] writing entry points to ../../build/ydlidar_slam_launch/ydlidar_slam_launch.egg-info/entry_points.txt
+[0.664s] writing requirements to ../../build/ydlidar_slam_launch/ydlidar_slam_launch.egg-info/requires.txt
+[0.664s] writing top-level names to ../../build/ydlidar_slam_launch/ydlidar_slam_launch.egg-info/top_level.txt
+[0.664s] writing manifest file '../../build/ydlidar_slam_launch/ydlidar_slam_launch.egg-info/SOURCES.txt'
+[0.665s] reading manifest file '../../build/ydlidar_slam_launch/ydlidar_slam_launch.egg-info/SOURCES.txt'
+[0.666s] writing manifest file '../../build/ydlidar_slam_launch/ydlidar_slam_launch.egg-info/SOURCES.txt'
+[0.666s] running build
+[0.666s] running build_py
+[0.666s] creating /home/maffin21/slam_ws/build/ydlidar_slam_launch/build
+[0.666s] creating /home/maffin21/slam_ws/build/ydlidar_slam_launch/build/lib
+[0.666s] creating /home/maffin21/slam_ws/build/ydlidar_slam_launch/build/lib/ydlidar_slam_launch
+[0.666s] copying ydlidar_slam_launch/__init__.py -> /home/maffin21/slam_ws/build/ydlidar_slam_launch/build/lib/ydlidar_slam_launch
+[0.667s] running install
+[0.667s] running install_lib
+[0.667s] creating /home/maffin21/slam_ws/install/ydlidar_slam_launch/lib/python3.10/site-packages/ydlidar_slam_launch
+[0.667s] copying /home/maffin21/slam_ws/build/ydlidar_slam_launch/build/lib/ydlidar_slam_launch/__init__.py -> /home/maffin21/slam_ws/install/ydlidar_slam_launch/lib/python3.10/site-packages/ydlidar_slam_launch
+[0.668s] byte-compiling /home/maffin21/slam_ws/install/ydlidar_slam_launch/lib/python3.10/site-packages/ydlidar_slam_launch/__init__.py to __init__.cpython-310.pyc
+[0.668s] running install_data
+[0.668s] copying package.xml -> /home/maffin21/slam_ws/install/ydlidar_slam_launch/share/ydlidar_slam_launch
+[0.668s] creating /home/maffin21/slam_ws/install/ydlidar_slam_launch/share/ydlidar_slam_launch/launch
+[0.668s] copying launch/slam_with_toolbox.launch.py -> /home/maffin21/slam_ws/install/ydlidar_slam_launch/share/ydlidar_slam_launch/launch
+[0.668s] creating /home/maffin21/slam_ws/install/ydlidar_slam_launch/share/ydlidar_slam_launch/config
+[0.668s] copying config/mapper_params_online_async.yaml -> /home/maffin21/slam_ws/install/ydlidar_slam_launch/share/ydlidar_slam_launch/config
+[0.668s] running install_egg_info
+[0.670s] Copying ../../build/ydlidar_slam_launch/ydlidar_slam_launch.egg-info to /home/maffin21/slam_ws/install/ydlidar_slam_launch/lib/python3.10/site-packages/ydlidar_slam_launch-0.0.0-py3.10.egg-info
+[0.670s] running install_scripts
+[0.685s] writing list of installed files to '/home/maffin21/slam_ws/build/ydlidar_slam_launch/install.log'
+[0.706s] Invoked command in '/home/maffin21/slam_ws/src/ydlidar_slam_launch' returned '0': AMENT_PREFIX_PATH=/home/maffin21/slam_ws/install/ydlidar_ros2_driver:/home/maffin21/slam_ws/install/slam_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maffin21/slam_ws/install/ydlidar_ros2_driver:/home/maffin21/slam_ws/install/slam_toolbox:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/maffin21/slam_ws/install/slam_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maffin21/slam_ws/build/ydlidar_slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/maffin21/slam_ws/install/ydlidar_slam_launch/lib/python3.10/site-packages:/home/maffin21/slam_ws/install/slam_toolbox/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ydlidar_slam_launch build --build-base /home/maffin21/slam_ws/build/ydlidar_slam_launch/build install --record /home/maffin21/slam_ws/build/ydlidar_slam_launch/install.log --single-version-externally-managed install_data
